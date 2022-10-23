@@ -27,6 +27,9 @@ echo "$KEYCLOAK_TOKEN_RESPONSE"
 KEYCLOAK_TOKEN=$(echo "$KEYCLOAK_TOKEN_RESPONSE" | jq -r .access_token)
 echo "$KEYCLOAK_TOKEN"
 # Combine the realm and user config and send it to the Keycloak server
+echo "Keycloak version: $keycloak-tag"
+echo "Keycloak version: $matrix.keycloak-tag"
+if 
 HTTP_CODE=$(curl -X POST --data-binary "@realm-export.json" \
     -s -o /dev/null -w "%{http_code}" \
     -H "Content-Type: application/json" \
