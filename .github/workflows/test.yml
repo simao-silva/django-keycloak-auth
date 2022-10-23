@@ -23,7 +23,7 @@ jobs:
     strategy:
       max-parallel: 2
       matrix:
-        python-version: ["3.7"]
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
         keycloak-tag:
           [
             # "10.0.2",
@@ -31,11 +31,11 @@ jobs:
             # "12.0.4",
             # "13.0.1",
             # "14.0.0",
-            # "15.1.1",
-            # "16.1.1",
-            "17.0.1-legacy",
-            "18.0.2-legacy",
-            "19.0.3-legacy",
+            "15.1.1",
+            "16.1.1",
+            # "17.0.1-legacy",
+            # "18.0.2-legacy",
+            # "19.0.3-legacy",
           ]
 
     services:
