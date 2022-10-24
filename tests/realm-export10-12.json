@@ -302,17 +302,7 @@
         }
       ],
       "account-console": [],
-      "broker": [
-        {
-          "id": "603c99d5-a843-4aee-b2a7-75d3a23a15d0",
-          "name": "read-token",
-          "description": "${role_read-token}",
-          "composite": false,
-          "clientRole": true,
-          "containerId": "4dee8c33-947b-480c-8d0e-2c85158f30dc",
-          "attributes": {}
-        }
-      ],
+      "broker": [],
       "account": [
         {
           "id": "251918eb-87d4-40e3-bf62-686469df5db8",
@@ -481,7 +471,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "defaultRoles": [
         "view-profile",
         "manage-account"
@@ -528,7 +517,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "redirectUris": [
         "/realms/test-realm/account/*"
       ],
@@ -581,7 +569,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "redirectUris": [],
       "webOrigins": [],
       "notBefore": 0,
@@ -620,7 +607,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "redirectUris": [],
       "webOrigins": [],
       "notBefore": 0,
@@ -659,7 +645,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "redirectUris": [],
       "webOrigins": [],
       "notBefore": 0,
@@ -700,7 +685,6 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
       "redirectUris": [
         "/admin/test-realm/console/*"
       ],
@@ -764,7 +748,7 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
+      "secret": "f6974574-c773-4554-826d-06946cd55e98",
       "redirectUris": [
         "https://www.keycloak.org/app/*"
       ],
