@@ -31,7 +31,7 @@ KEYCLOAK_VERSION="$(curl -v -X GET -H "Content-Type: application/json" -H "Autho
 echo "Keycloak version: $KEYCLOAK_VERSION"
 VERSION_MAJOR="$(echo $KEYCLOAK_VERSION | tr -d \" | cut -d . -f 1)"
 if [ $VERSION_MAJOR -le 14 ]; then
-  REALM_FILE="realm-export-legacy.json"
+  REALM_FILE="realm-export10-12.json"
 else
   REALM_FILE="realm-export.json"
 fi
